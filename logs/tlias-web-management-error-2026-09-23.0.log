@@ -1,0 +1,87 @@
+2026-09-23 21:48:12.997 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.servlet.multipart.max-request-size' to org.springframework.util.unit.DataSize:
+
+    Property: spring.servlet.multipart.max-request-size
+    Value: "100M"
+    Origin: class path resource [application.yml] - 11:25
+    Reason: failed to convert java.lang.String to org.springframework.util.unit.DataSize (caused by java.lang.IllegalArgumentException: Unknown data unit suffix 'M')
+
+Action:
+
+Update your application's configuration
+
+2026-09-23 21:48:30.726 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.servlet.multipart.max-request-size' to org.springframework.util.unit.DataSize:
+
+    Property: spring.servlet.multipart.max-request-size
+    Value: "100M"
+    Origin: class path resource [application.yml] - 11:25
+    Reason: failed to convert java.lang.String to org.springframework.util.unit.DataSize (caused by java.lang.IllegalArgumentException: Unknown data unit suffix 'M')
+
+Action:
+
+Update your application's configuration
+
+2026-09-23 21:50:03.351 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.servlet.multipart.max-request-size' to org.springframework.util.unit.DataSize:
+
+    Property: spring.servlet.multipart.max-request-size
+    Value: "100M"
+    Origin: class path resource [application.yml] - 11:25
+    Reason: failed to convert java.lang.String to org.springframework.util.unit.DataSize (caused by java.lang.IllegalArgumentException: Unknown data unit suffix 'M')
+
+Action:
+
+Update your application's configuration
+
+2026-09-23 21:50:16.896 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.shenzhenxinxizhiye.web_ai_project02.service.impl.DeptServiceImpl required a bean of type 'com.shenzhenxinxizhiye.web_ai_project02.mapper.DeptMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shenzhenxinxizhiye.web_ai_project02.mapper.DeptMapper' in your configuration.
+
+2026-09-23 21:52:44.804 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.shenzhenxinxizhiye.web_ai_project02.service.impl.DeptServiceImpl required a bean of type 'com.shenzhenxinxizhiye.web_ai_project02.mapper.DeptMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.shenzhenxinxizhiye.web_ai_project02.mapper.DeptMapper' in your configuration.
+

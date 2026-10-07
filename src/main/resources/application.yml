@@ -1,0 +1,33 @@
+# 端口配置
+# server:
+#   port: 90
+
+spring:
+  application:
+    name: web-ai-project02
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/tlias
+    username: root
+    password: He*525125#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# mybatis配置
+mybatis:
+  configuration:
+    # 开启驼峰映射
+    map-underscore-to-camel-case: true
+    # 打印 SQL 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# 阿里云配置
+aliyun:
+  oss: 
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: bucket1145414
+    region: cn-beijing

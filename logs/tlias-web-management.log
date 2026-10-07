@@ -1,0 +1,261 @@
+2026-09-29 15:50:31.484 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 652 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 15:50:31.489 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 15:50:32.707 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 15:50:32.722 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 15:50:32.725 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 15:50:32.725 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 15:50:32.785 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1248 ms
+2026-09-29 15:50:33.455 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 15:50:33.478 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 15:50:33.484 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.398 seconds (process running for 2.984)
+2026-09-29 15:50:36.261 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 15:50:36.261 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 15:50:36.262 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-29 15:50:36.284 [http-nio-8080-exec-1] INFO  c.s.web_ai_project02.controller.DeptController - 查询全部部门数据
+2026-09-29 15:50:36.300 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-29 15:50:36.655 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@661a15d4
+2026-09-29 15:50:36.658 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-29 15:50:36.823 [http-nio-8080-exec-9] INFO  c.s.web_ai_project02.controller.DeptController - 查询全部部门数据
+2026-09-29 15:50:37.020 [http-nio-8080-exec-3] INFO  c.s.web_ai_project02.controller.DeptController - 查询全部部门数据
+2026-09-29 15:50:37.182 [http-nio-8080-exec-4] INFO  c.s.web_ai_project02.controller.DeptController - 查询全部部门数据
+2026-09-29 15:50:39.245 [http-nio-8080-exec-6] INFO  c.s.web_ai_project02.controller.DeptController - 查询全部部门数据
+2026-09-29 15:50:39.265 [http-nio-8080-exec-5] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-29 15:50:57.474 [http-nio-8080-exec-1] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=2026-09-03, end=2026-09-30)
+2026-09-29 15:50:58.287 [http-nio-8080-exec-9] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-29 15:51:08.663 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-09-29 16:12:43.105 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 19968 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:12:43.108 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:12:44.093 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:12:44.105 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:12:44.107 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:12:44.107 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:12:44.176 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1023 ms
+2026-09-29 16:12:44.797 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:12:44.824 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 16:12:44.829 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.065 seconds (process running for 2.541)
+2026-09-29 16:13:14.481 [http-nio-8080-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 16:13:14.481 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 16:13:14.482 [http-nio-8080-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-09-29 16:13:14.524 [http-nio-8080-exec-5] INFO  c.s.web_ai_project02.controller.EmpController - 删除员工的数据[1, 2, 3]
+2026-09-29 16:14:06.888 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 15356 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:14:06.890 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:14:07.812 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:14:07.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:14:07.826 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:14:07.827 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:14:07.891 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 962 ms
+2026-09-29 16:14:08.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:14:08.497 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 16:14:08.503 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 1.928 seconds (process running for 2.373)
+2026-09-29 16:15:08.757 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 22740 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:15:08.761 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:15:09.725 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:15:09.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:15:09.739 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:15:09.739 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:15:09.800 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1003 ms
+2026-09-29 16:15:10.412 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:15:10.429 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 16:15:10.436 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.02 seconds (process running for 2.485)
+2026-09-29 16:15:13.679 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 16:15:13.680 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 16:15:13.681 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-29 16:15:13.711 [http-nio-8080-exec-1] INFO  c.s.web_ai_project02.controller.EmpController - delete empolyees' datas are 
+2026-09-29 16:15:27.486 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 24320 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:15:27.489 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:15:28.447 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:15:28.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:15:28.460 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:15:28.460 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:15:28.519 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 991 ms
+2026-09-29 16:15:29.114 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:15:29.130 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 16:15:29.136 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 1.951 seconds (process running for 2.384)
+2026-09-29 16:15:56.354 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 16:15:56.355 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 16:15:56.356 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-29 16:15:56.388 [http-nio-8080-exec-2] INFO  c.s.web_ai_project02.controller.EmpController - delete empolyees' datas are [1, 2, 3]
+2026-09-29 16:34:45.956 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 9492 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:34:45.958 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:34:46.900 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:34:46.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:34:46.914 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:34:46.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:34:46.969 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 973 ms
+2026-09-29 16:34:47.595 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:34:47.612 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 16:34:47.618 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 1.982 seconds (process running for 2.443)
+2026-09-29 16:36:01.748 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 16:36:01.749 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 16:36:01.750 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-29 16:36:11.863 [http-nio-8080-exec-2] INFO  c.s.web_ai_project02.controller.EmpController - 员工信息为Emp(id=null, username=wererting, password=null, name=维尔汀, gender=2, phone=11111111111, job=5, salary=1, image=https://bucket1145414.oss-cn-beijing.aliyuncs.com/2026/09/0d77afc5-f706-47d6-83e5-bd367b5298ff.jpg, entryDate=2026-09-01, deptId=7, createTime=null, updateTime=null, deptName=null, exprList=[])
+2026-09-29 16:36:11.863 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-29 16:36:12.049 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cafbee4
+2026-09-29 16:36:12.052 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-29 16:36:12.200 [http-nio-8080-exec-10] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-29 16:36:48.396 [http-nio-8080-exec-4] INFO  c.s.web_ai_project02.controller.EmpController - delete empolyees' datas are [49, 50, 48]
+2026-09-29 16:36:48.431 [http-nio-8080-exec-5] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-29 16:53:54.502 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 2976 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:53:54.504 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:53:55.462 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:53:55.475 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:53:55.477 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:53:55.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:53:55.536 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 996 ms
+2026-09-29 16:53:56.003 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'empController' method 
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#page(EmpQueryParam)
+to {GET [/emps]}: There is already 'empController' bean method
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#getById(Integer) mapped.
+2026-09-29 16:53:56.006 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-09-29 16:53:56.017 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-29 16:53:56.034 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'empController' method 
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#page(EmpQueryParam)
+to {GET [/emps]}: There is already 'empController' bean method
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#getById(Integer) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.shenzhenxinxizhiye.web_ai_project02.WebAiProject02Application.main(WebAiProject02Application.java:10)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'empController' method 
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#page(EmpQueryParam)
+to {GET [/emps]}: There is already 'empController' bean method
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#getById(Integer) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:644)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:604)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:327)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:459)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:80)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:294)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:987)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:292)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811)
+	... 18 common frames omitted
+2026-09-29 16:54:16.521 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 17748 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:54:16.523 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:54:17.415 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:54:17.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:54:17.427 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:54:17.427 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:54:17.486 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 925 ms
+2026-09-29 16:54:17.942 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'empController' method 
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#getById(Integer)
+to {GET [/emps]}: There is already 'empController' bean method
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#page(EmpQueryParam) mapped.
+2026-09-29 16:54:17.947 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-09-29 16:54:17.959 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-29 16:54:17.970 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'empController' method 
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#getById(Integer)
+to {GET [/emps]}: There is already 'empController' bean method
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#page(EmpQueryParam) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.shenzhenxinxizhiye.web_ai_project02.WebAiProject02Application.main(WebAiProject02Application.java:10)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'empController' method 
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#getById(Integer)
+to {GET [/emps]}: There is already 'empController' bean method
+com.shenzhenxinxizhiye.web_ai_project02.controller.EmpController#page(EmpQueryParam) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:644)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:604)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:327)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:459)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:80)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:294)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:987)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:292)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811)
+	... 18 common frames omitted
+2026-09-29 16:58:04.522 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 22256 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 16:58:04.525 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 16:58:05.673 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 16:58:05.683 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:58:05.686 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 16:58:05.687 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 16:58:05.741 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1181 ms
+2026-09-29 16:58:06.377 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 16:58:06.403 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 16:58:06.410 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.219 seconds (process running for 2.682)
+2026-09-29 16:58:12.063 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 16:58:12.063 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 16:58:12.064 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-29 16:58:12.106 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-29 16:58:12.378 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@431d14e8
+2026-09-29 16:58:12.380 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-29 17:00:47.256 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 14852 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 17:00:47.258 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 17:00:48.249 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 17:00:48.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 17:00:48.263 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 17:00:48.263 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 17:00:48.315 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1020 ms
+2026-09-29 17:00:48.977 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 17:00:48.993 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 17:00:49.000 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.071 seconds (process running for 2.558)
+2026-09-29 17:00:51.532 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 17:00:51.533 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 17:00:51.535 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-09-29 17:00:51.593 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-29 17:00:51.922 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@402297e0
+2026-09-29 17:00:51.925 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-29 17:05:53.513 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 21312 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-29 17:05:53.516 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-29 17:05:54.512 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-29 17:05:54.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-29 17:05:54.526 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-29 17:05:54.528 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-29 17:05:54.605 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1042 ms
+2026-09-29 17:05:55.330 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-29 17:05:55.351 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-29 17:05:55.356 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.186 seconds (process running for 2.662)
+2026-09-29 17:06:00.866 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29 17:06:00.867 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-29 17:06:00.867 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-09-29 17:06:00.924 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-29 17:06:01.287 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f1c7a5a
+2026-09-29 17:06:01.290 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

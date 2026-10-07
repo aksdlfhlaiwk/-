@@ -1,0 +1,97 @@
+2026-09-24 00:38:50.706 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 28712 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-24 00:38:50.712 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 00:38:51.826 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-24 00:38:51.842 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-24 00:38:51.845 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-24 00:38:51.845 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24 00:38:51.913 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1164 ms
+2026-09-24 00:38:52.569 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-24 00:38:52.591 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-24 00:38:52.598 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.242 seconds (process running for 2.687)
+2026-09-24 00:41:55.289 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 00:41:55.290 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-24 00:41:55.291 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-24 00:44:48.223 [http-nio-8080-exec-4] INFO  c.s.web_ai_project02.controller.DeptController - 查询全部部门数据
+2026-09-24 00:44:48.233 [http-nio-8080-exec-5] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-24 00:44:48.254 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-09-24 00:44:48.555 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bc093ec
+2026-09-24 00:44:48.555 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-09-24 00:47:03.574 [http-nio-8080-exec-8] INFO  c.s.web_ai_project02.controller.EmpController - 员工信息为Emp(id=null, username=beiliya, password=null, name=贝利亚, gender=2, phone=17171717171, job=1, salary=100, image=https://bucket1145414.oss-cn-beijing.aliyuncs.com/2026/09/99b202c8-d8e7-4d3a-ab5d-7a684ea5c397.jpg, entryDate=2026-09-24, deptId=7, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2026-09-01, end=2026-10-02, company=基金会, job=神棍)])
+2026-09-24 00:47:03.675 [http-nio-8080-exec-7] INFO  c.s.web_ai_project02.controller.EmpController - 分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null)
+2026-09-24 01:12:52.945 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 27268 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-24 01:12:52.947 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 01:12:53.922 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-24 01:12:53.934 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-24 01:12:53.936 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-24 01:12:53.937 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24 01:12:53.992 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1009 ms
+2026-09-24 01:12:54.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-24 01:12:54.660 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-24 01:12:54.667 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.067 seconds (process running for 2.555)
+2026-09-24 01:13:22.314 [http-nio-8080-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 01:13:22.314 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-24 01:13:22.314 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-09-24 01:13:22.402 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: 参数"endpoint"为空指针。] with root cause
+java.lang.NullPointerException: 参数"endpoint"为空指针。
+	at com.aliyun.oss.common.utils.CodingUtils.assertParameterNotNull(CodingUtils.java:35)
+	at com.aliyun.oss.OSSClientBuilder$OSSClientBuilderImpl.build(OSSClientBuilder.java:132)
+	at com.shenzhenxinxizhiye.web_ai_project02.utils.AliyunOSSOperator.upload(AliyunOSSOperator.java:47)
+	at com.shenzhenxinxizhiye.web_ai_project02.controller.UploadController.Upload(UploadController.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+2026-09-24 01:15:16.730 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 27100 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-24 01:15:16.732 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 01:15:26.703 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Starting WebAiProject02Application using Java 26.0.1 with PID 23148 (E:\web-ai-project02\target\classes started by Administrator in E:\web-ai-project02)
+2026-09-24 01:15:26.706 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - No active profile set, falling back to 1 default profile: "default"
+2026-09-24 01:15:27.652 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-24 01:15:27.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-24 01:15:27.667 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-24 01:15:27.667 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24 01:15:27.726 [main] INFO  o.s.b.w.c.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 982 ms
+2026-09-24 01:15:28.390 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-09-24 01:15:28.417 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-24 01:15:28.422 [main] INFO  c.s.web_ai_project02.WebAiProject02Application - Started WebAiProject02Application in 2.056 seconds (process running for 2.507)
+2026-09-24 01:15:31.811 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24 01:15:31.812 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-24 01:15:31.813 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
